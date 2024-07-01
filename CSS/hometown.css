@@ -1,0 +1,157 @@
+body {
+    font: 16px/1.5 'Microsoft YaHei';
+    color: #333333;
+    background-color: #f5f5f5;
+}
+p {
+    text-indent: 2em;
+}
+a {
+    color: #999999;
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+h2 {
+    font-weight: normal;
+}
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative; 
+}
+.image-container {
+    position: relative; 
+}
+.text-overlay h2 {
+    margin: 0;
+}
+#title1 {
+    position: absolute;
+    display: flex;
+    
+    left: 40px;
+    top: 30px;
+    margin: auto;
+    color: #07181bc3;
+    font-size: 50px;
+    font-weight: 500;
+}
+#title2{
+    position: absolute;
+ 
+
+    left: 240px;
+
+    top: 120px;
+    margin: auto;
+
+    color: #000000f9;
+    font-size: 60px;
+    font-weight: 550;
+}
+header img {
+    width: 100%;
+    height: 400px;
+}
+nav {
+    height: 45px;
+    background-color: #9b322e;
+}
+
+nav ul {
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 0 40px;
+    line-height: 45px;
+    color: #fff;
+}
+
+nav ul li:hover {
+    transform: scale(1.2);
+    background: rgba(26, 115, 232, 0.3);
+}
+.slider-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px; /* 根据需要设置最大宽度 */
+    margin: 0 auto; /* 居中显示 */
+    overflow: hidden; /* 隐藏超出部分 */
+}
+
+.slider {
+    display: flex;
+    overflow-x: auto; /* 横向滚动 */
+    scroll-snap-type: x mandatory; /* 强制按X轴滚动 */
+    -webkit-overflow-scrolling: touch; /* 兼容iOS的滚动效果 */
+    width: 100%; /* 占据70%的宽度 */
+    height: 575px; /* 设置固定高度为 400 像素 */
+}
+
+.slide {
+    flex: 0 0 auto; /* 不可伸缩，不可收缩 */
+    position: relative;
+    scroll-snap-align: start; /* 滚动对齐方式 */
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+h3 {
+    text-align: center; /* 将内容居中 */
+    font-size: 24px; /* 设置字号为 24 像素（根据需要调整大小） */
+    font-weight: bold; /* 加粗字体 */
+}
+.text-container {
+    max-width: 1200px; /* 根据需要设置最大宽度 */
+    margin: 0 auto; /* 居中显示 */
+    background-color: rgb(242, 212, 188);
+}
+.text1-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around; /* 让三个框均匀分布在容器中 */
+}
+.box {
+    width: calc(33.33% - 20px); /* 每个框的宽度为容器宽度的三分之一，减去间距 */
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.box img {
+    max-width: 100%;
+    height: auto;
+}
+.text2-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around; /* 让四个框均匀分布在容器中 */
+}
+.box1 {
+    width: calc(25% - 20px); /* 每个框的宽度为容器宽度的三分之一，减去间距 */
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.box1 img {
+    max-width: 100%;
+    height: auto;
+}
