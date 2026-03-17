@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跳转页面</title>
+    <style>
+        /* 仅实现文字居中，无多余样式 */
+        body {
+            margin: 0;
+            height: 100vh; /* 让body占满整个屏幕高度 */
+            display: flex;
+            justify-content: center; /* 水平居中 */
+            align-items: center; /* 垂直居中 */
+        }
+        /* 跳转链接样式，去掉下划线，保持文字默认样式 */
+        .go-index {
+            text-decoration: none;
+            color: #000; /* 文字黑色，可根据需要改色值 */
+            font-size: 18px; /* 字体大小，可调整 */
+            cursor: pointer; /* 鼠标悬浮显示手型 */
+        }
+    </style>
+</head>
+<body>
+    <!-- 核心跳转链接，相对路径指向HTML文件夹下的index.html -->
+    <a href="HTML/index.html" class="go-index">进入首页</a>
+</body>
+</html>
